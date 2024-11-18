@@ -1,3 +1,5 @@
+Lookup performance comparison between Dictionary, HashSet, SortedList and SortedDictionary
+
 ```
 
 BenchmarkDotNet v0.13.12, Windows 11 (10.0.22631.3155/23H2/2023Update/SunValley3) (Hyper-V)
@@ -189,3 +191,11 @@ AMD EPYC 7763, 1 CPU, 16 logical and 8 physical cores
 | SortedDictionaryLookup | 1000000       | 1000000      | 1,794,668,884.6 ns | 24,747,592.52 ns | 20,665,360.58 ns | 10.92 |    0.22 |
 | SortedListLookup       | 1000000       | 1000000      | 1,904,261,067.6 ns | 33,123,617.88 ns | 56,246,417.01 ns | 11.78 |    0.42 |
 | HashSetLookup          | 1000000       | 1000000      |   170,670,665.2 ns |  3,349,947.67 ns |  4,114,036.58 ns |  1.04 |    0.03 |
+
+
+---
+
+Different lookup methods on `Dictionary`
+
+
+![](https://raw.githubusercontent.com/mizrael/DictionaryLookupBenchmark/36456254d1700c927fb85cb37356a7b4aae73ce1/dictionary.jpg)
