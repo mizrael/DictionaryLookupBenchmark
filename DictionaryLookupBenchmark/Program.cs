@@ -1,4 +1,3 @@
-﻿//BenchmarkDotNet.Running.BenchmarkRunner.Run<LookupBenchmark>();
-using BenchmarkDotNet.Running;
+﻿using BenchmarkDotNet.Running;
 
-BenchmarkRunner.Run<DictionaryLookupBenchmark>();
+BenchmarkRunner.Run<EmptyCollectionBenchmark>();
